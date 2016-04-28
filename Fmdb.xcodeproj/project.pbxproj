@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		142B62221CAB924100890389 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B62211CAB924100890389 /* main.m */; };
+		142B62251CAB924100890389 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B62241CAB924100890389 /* AppDelegate.m */; };
+		142B62281CAB924100890389 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B62271CAB924100890389 /* ViewController.m */; };
+		142B622B1CAB924100890389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142B62291CAB924100890389 /* Main.storyboard */; };
+		142B622E1CAB924100890389 /* Fmdb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 142B622C1CAB924100890389 /* Fmdb.xcdatamodeld */; };
+		142B62301CAB924100890389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142B622F1CAB924100890389 /* Assets.xcassets */; };
+		142B62331CAB924100890389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142B62311CAB924100890389 /* LaunchScreen.storyboard */; };
+		142B623E1CAB924100890389 /* FmdbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B623D1CAB924100890389 /* FmdbTests.m */; };
+		142B62491CAB92ED00890389 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 142B62481CAB92ED00890389 /* libsqlite3.0.tbd */; };
+		142B62571CAB936B00890389 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B624C1CAB936B00890389 /* FMDatabase.m */; };
+		142B62581CAB936B00890389 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B624E1CAB936B00890389 /* FMDatabaseAdditions.m */; };
+		142B62591CAB936B00890389 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B62501CAB936B00890389 /* FMDatabasePool.m */; };
+		142B625A1CAB936B00890389 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B62521CAB936B00890389 /* FMDatabaseQueue.m */; };
+		142B625B1CAB936B00890389 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B62551CAB936B00890389 /* FMResultSet.m */; };
+		142B625C1CAB936B00890389 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 142B62561CAB936B00890389 /* Info.plist */; };
+		142B62621CABBD4900890389 /* DbController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B62611CABBD4900890389 /* DbController.m */; };
+		142B62661CACBC6C00890389 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B62651CACBC6C00890389 /* ShowViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		142B623A1CAB924100890389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 142B62151CAB924000890389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 142B621C1CAB924100890389;
+			remoteInfo = Fmdb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		142B621D1CAB924100890389 /* Fmdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fmdb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		142B62211CAB924100890389 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		142B62231CAB924100890389 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		142B62241CAB924100890389 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		142B62261CAB924100890389 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		142B62271CAB924100890389 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		142B622A1CAB924100890389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		142B622D1CAB924100890389 /* Fmdb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fmdb.xcdatamodel; sourceTree = "<group>"; };
+		142B622F1CAB924100890389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		142B62321CAB924100890389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		142B62341CAB924100890389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142B62391CAB924100890389 /* FmdbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FmdbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		142B623D1CAB924100890389 /* FmdbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FmdbTests.m; sourceTree = "<group>"; };
+		142B623F1CAB924100890389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142B62481CAB92ED00890389 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		142B624B1CAB936B00890389 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		142B624C1CAB936B00890389 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		142B624D1CAB936B00890389 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		142B624E1CAB936B00890389 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		142B624F1CAB936B00890389 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		142B62501CAB936B00890389 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		142B62511CAB936B00890389 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		142B62521CAB936B00890389 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		142B62531CAB936B00890389 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		142B62541CAB936B00890389 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		142B62551CAB936B00890389 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		142B62561CAB936B00890389 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142B625F1CABAF4700890389 /* mydb */ = {isa = PBXFileReference; lastKnownFileType = file; name = mydb; path = ../../mydb; sourceTree = "<group>"; };
+		142B62611CABBD4900890389 /* DbController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbController.m; sourceTree = "<group>"; };
+		142B62631CABBD6600890389 /* DbController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbController.h; sourceTree = "<group>"; };
+		142B62641CACBC5600890389 /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		142B62651CACBC6C00890389 /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		142B621A1CAB924100890389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142B62491CAB92ED00890389 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142B62361CAB924100890389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		142B62141CAB924000890389 = {
+			isa = PBXGroup;
+			children = (
+				142B62481CAB92ED00890389 /* libsqlite3.0.tbd */,
+				142B621F1CAB924100890389 /* Fmdb */,
+				142B623C1CAB924100890389 /* FmdbTests */,
+				142B621E1CAB924100890389 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		142B621E1CAB924100890389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				142B621D1CAB924100890389 /* Fmdb.app */,
+				142B62391CAB924100890389 /* FmdbTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		142B621F1CAB924100890389 /* Fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				142B62601CABBD0000890389 /* Model */,
+				142B62231CAB924100890389 /* AppDelegate.h */,
+				142B62241CAB924100890389 /* AppDelegate.m */,
+				142B62641CACBC5600890389 /* ShowViewController.h */,
+				142B62651CACBC6C00890389 /* ShowViewController.m */,
+				142B62261CAB924100890389 /* ViewController.h */,
+				142B62271CAB924100890389 /* ViewController.m */,
+				142B62291CAB924100890389 /* Main.storyboard */,
+				142B622F1CAB924100890389 /* Assets.xcassets */,
+				142B62311CAB924100890389 /* LaunchScreen.storyboard */,
+				142B62341CAB924100890389 /* Info.plist */,
+				142B622C1CAB924100890389 /* Fmdb.xcdatamodeld */,
+				142B624A1CAB936B00890389 /* fmdb */,
+				142B62201CAB924100890389 /* Supporting Files */,
+			);
+			path = Fmdb;
+			sourceTree = "<group>";
+		};
+		142B62201CAB924100890389 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				142B625F1CABAF4700890389 /* mydb */,
+				142B62211CAB924100890389 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		142B623C1CAB924100890389 /* FmdbTests */ = {
+			isa = PBXGroup;
+			children = (
+				142B623D1CAB924100890389 /* FmdbTests.m */,
+				142B623F1CAB924100890389 /* Info.plist */,
+			);
+			path = FmdbTests;
+			sourceTree = "<group>";
+		};
+		142B624A1CAB936B00890389 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				142B624B1CAB936B00890389 /* FMDatabase.h */,
+				142B624C1CAB936B00890389 /* FMDatabase.m */,
+				142B624D1CAB936B00890389 /* FMDatabaseAdditions.h */,
+				142B624E1CAB936B00890389 /* FMDatabaseAdditions.m */,
+				142B624F1CAB936B00890389 /* FMDatabasePool.h */,
+				142B62501CAB936B00890389 /* FMDatabasePool.m */,
+				142B62511CAB936B00890389 /* FMDatabaseQueue.h */,
+				142B62521CAB936B00890389 /* FMDatabaseQueue.m */,
+				142B62531CAB936B00890389 /* FMDB.h */,
+				142B62541CAB936B00890389 /* FMResultSet.h */,
+				142B62551CAB936B00890389 /* FMResultSet.m */,
+				142B62561CAB936B00890389 /* Info.plist */,
+			);
+			name = fmdb;
+			path = "../../../../Downloads/fmdb-master/src/fmdb";
+			sourceTree = "<group>";
+		};
+		142B62601CABBD0000890389 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				142B62631CABBD6600890389 /* DbController.h */,
+				142B62611CABBD4900890389 /* DbController.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		142B621C1CAB924100890389 /* Fmdb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142B62421CAB924100890389 /* Build configuration list for PBXNativeTarget "Fmdb" */;
+			buildPhases = (
+				142B62191CAB924100890389 /* Sources */,
+				142B621A1CAB924100890389 /* Frameworks */,
+				142B621B1CAB924100890389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fmdb;
+			productName = Fmdb;
+			productReference = 142B621D1CAB924100890389 /* Fmdb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		142B62381CAB924100890389 /* FmdbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142B62451CAB924100890389 /* Build configuration list for PBXNativeTarget "FmdbTests" */;
+			buildPhases = (
+				142B62351CAB924100890389 /* Sources */,
+				142B62361CAB924100890389 /* Frameworks */,
+				142B62371CAB924100890389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				142B623B1CAB924100890389 /* PBXTargetDependency */,
+			);
+			name = FmdbTests;
+			productName = FmdbTests;
+			productReference = 142B62391CAB924100890389 /* FmdbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		142B62151CAB924000890389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = sample;
+				TargetAttributes = {
+					142B621C1CAB924100890389 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					142B62381CAB924100890389 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 142B621C1CAB924100890389;
+					};
+				};
+			};
+			buildConfigurationList = 142B62181CAB924000890389 /* Build configuration list for PBXProject "Fmdb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 142B62141CAB924000890389;
+			productRefGroup = 142B621E1CAB924100890389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				142B621C1CAB924100890389 /* Fmdb */,
+				142B62381CAB924100890389 /* FmdbTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		142B621B1CAB924100890389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142B625C1CAB936B00890389 /* Info.plist in Resources */,
+				142B62331CAB924100890389 /* LaunchScreen.storyboard in Resources */,
+				142B62301CAB924100890389 /* Assets.xcassets in Resources */,
+				142B622B1CAB924100890389 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142B62371CAB924100890389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		142B62191CAB924100890389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142B62281CAB924100890389 /* ViewController.m in Sources */,
+				142B625A1CAB936B00890389 /* FMDatabaseQueue.m in Sources */,
+				142B62251CAB924100890389 /* AppDelegate.m in Sources */,
+				142B62661CACBC6C00890389 /* ShowViewController.m in Sources */,
+				142B622E1CAB924100890389 /* Fmdb.xcdatamodeld in Sources */,
+				142B62571CAB936B00890389 /* FMDatabase.m in Sources */,
+				142B62621CABBD4900890389 /* DbController.m in Sources */,
+				142B62591CAB936B00890389 /* FMDatabasePool.m in Sources */,
+				142B625B1CAB936B00890389 /* FMResultSet.m in Sources */,
+				142B62221CAB924100890389 /* main.m in Sources */,
+				142B62581CAB936B00890389 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142B62351CAB924100890389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142B623E1CAB924100890389 /* FmdbTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		142B623B1CAB924100890389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 142B621C1CAB924100890389 /* Fmdb */;
+			targetProxy = 142B623A1CAB924100890389 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		142B62291CAB924100890389 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				142B622A1CAB924100890389 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		142B62311CAB924100890389 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				142B62321CAB924100890389 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		142B62401CAB924100890389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		142B62411CAB924100890389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		142B62431CAB924100890389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fmdb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.Fmdb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		142B62441CAB924100890389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fmdb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.Fmdb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		142B62461CAB924100890389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FmdbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.FmdbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fmdb.app/Fmdb";
+			};
+			name = Debug;
+		};
+		142B62471CAB924100890389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FmdbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.FmdbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fmdb.app/Fmdb";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		142B62181CAB924000890389 /* Build configuration list for PBXProject "Fmdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142B62401CAB924100890389 /* Debug */,
+				142B62411CAB924100890389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142B62421CAB924100890389 /* Build configuration list for PBXNativeTarget "Fmdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142B62431CAB924100890389 /* Debug */,
+				142B62441CAB924100890389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142B62451CAB924100890389 /* Build configuration list for PBXNativeTarget "FmdbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142B62461CAB924100890389 /* Debug */,
+				142B62471CAB924100890389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		142B622C1CAB924100890389 /* Fmdb.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				142B622D1CAB924100890389 /* Fmdb.xcdatamodel */,
+			);
+			currentVersion = 142B622D1CAB924100890389 /* Fmdb.xcdatamodel */;
+			path = Fmdb.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 142B62151CAB924000890389 /* Project object */;
+}
